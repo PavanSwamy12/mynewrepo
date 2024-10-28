@@ -21,7 +21,7 @@
 
     - name: Download prometheus.yml from the repo
       get_url:
-        url: https://raw.githubusercontent.com/MeHuman333/star-agile-banking-finance_CAP01/master/prometheus.yml
+        url: https://github.com/PavanSwamy12/mynewrepo/edit/master/ansible-playbook.yml
         dest: /home/ubuntu/prometheus.yml
     
     - name: run prometheus container

@@ -7,7 +7,7 @@ pipeline {
     stages{
         stage('build project'){
             steps{
-                git 'https://github.com/MeHuman333/123pro.git'
+                git 'https://github.com/PavanSwamy12/mynewrepo'
                 sh 'mvn clean package'
               
             }
